@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+span, p {
+    font: 90%;
+}
+
 body {
     background-color: white;
     margin: 0;
@@ -90,6 +94,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .blogcontent .bloghead .title {
@@ -127,3 +132,39 @@ i {
     font-weight: 700;
 }
 
+.blogcontent .textcontent {
+    width: 100%;
+    padding: 0;
+}
+
+.textcontent p {
+    font-family: Manrope;
+}
+
+.sharethisblog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sharethisblog .sharethis {
+    width: 40%;
+}
+
+.sharethis span {
+    font-size: 30px;
+    font-family: Manrope;
+    color: purple;
+}
+
+
+
+.sharethisblog .social i {
+    font-size: 100px;
+    padding-left: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 100px;
+}
